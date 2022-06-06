@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="cadastro.php">
+
+        <fieldset>
+        <legend>Informações pessoais</legend>
+        Nome: <br>
+        <input type="text" name="Nome" id="" required autofocus><br>
+        Senha <br>
+        <input type="password" name="senha" id="" required><br>
+        Email <br>
+        <input type="email" name="email" id="" required placeholder="seuemail@gmail.com"> <br>
+        Time: <br>
+        <input type="radio" name="time" id="" value="Inter" checked> Inter <br>
+        <input type="radio" name="time" id="" value="Gremio"> Gremio <br>
+        <br>
+        Cores: <br>
+        
+        <input type="checkbox" name="cores" id="" value="Verde">Verde <br>
+        <input type="checkbox" name="cores" id="" value="Vermelho" checked>Vermelho <br>
+        <input type="checkbox" name="cores" id="" value="Azul">Azul <br>
+        <br>
+
+        <input type="number" name="quantidade" id="" min="0"
+        max="500">
+        <br><br>
+        <input type="range" name="" id="">
+        <br><br>
+        Cor:
+        <input type="color" name="" id="">
+        <br><br>
+        <input type="file" name="" id="">
+        <br><br>
+        <input type="hidden" name="id">
+        <br><br>
+        URL
+        <input type="url" name="" id="">
+        <br><br>
+        Search: <br>
+        <input type="search" name="" id=""> <br><br>
+        <br><br>
+        Data: <br>
+        <input type="date" name="" id="">
+        <br><br>
+        Texto: <br>
+        <textarea name="" id="" cols="30" rows="10">
+        </textarea><br><br>
+        <Select name="veiculo">
+            <optgroup label="Carros">
+                <option value="Camaro">Camaro</option>
+                <option value="Hilux">Hilux</option>
+            </optgroup>
+            <optgroup label="Motos">
+                <option value="Pop100">Pop100</option>
+                <option value="Cb300">Cb300</option>
+            </optgroup>
+        </Select><br>
+       
+
+        <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
